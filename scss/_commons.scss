@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: $mainFont;
+    width: 100vw;
+}
+
+main{
+    background-color: $mainBg;
+}
+
+#numberHead{
+    background-color: $mainBg;
+}
+
+h1,
+h3{
+    color: $white;
+}
+
+h1{
+    font-size: $textXl;
+}
+
+h3{
+    font-size: $textLg;
+}
+
+p{
+    font-size: $textMd;
+    color: $white;
+    margin: 10px 20px;
+    line-height: 1.4em;    
+}
+

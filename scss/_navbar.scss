@@ -1,0 +1,28 @@
+//nesting
+
+#botonera{
+    background-color: $secondaryBg;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 200px;
+    }
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin-right: 10px;
+        }
+        a{
+            font-family: $mainFont;
+            font-size: $textMd;
+            color: $white;
+            &:hover{
+                color: $hoverColor;
+            }
+        }
+    }
+
+}
