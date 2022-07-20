@@ -1,0 +1,106 @@
+// Retoques para index
+
+.separadores{
+    border-bottom: 2px solid $hoverColor;
+    padding: 15px;
+    width: 100%;
+}
+
+.border-img{
+    border: $white solid 2px;
+}
+
+
+// Retoques para Diseños
+
+#galeria{
+    .col-lg-4{
+        padding: 25px;
+    }
+    img{
+        width: 100%;
+        &:hover{
+            border: 5px solid $white;
+        }
+    }
+}
+
+// Retoques contacto
+
+.bg-contacto{
+    background-image: url(../images/cortetatto.jpg);
+    background-position: center center;
+}
+
+.btn-turq{
+    background: $hoverColor;
+}
+
+// Retoques ubicación
+
+.padd-ubi{
+    padding: 15px;
+}
+
+//extend
+
+#button-ubi {
+    padding: 9px 25px;
+    background-color: $hoverColor;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: $mainFont;
+    font-weight: $bold;
+    font-size: $textMd;
+    text-decoration: none;
+    color: $white;
+    &:hover{
+        background-color: $hoverColor;
+    }
+}
+
+#button-rounded{
+    @extend #button-ubi;
+    border-radius: 4px;
+}
+
+#map {
+    height: 40vh;
+    width: 100%;
+}
+
+//Retoques Servicios
+
+.inner{
+    overflow: hidden;
+    img{
+        transition: all 1.5s ease;
+        &:hover{
+            transform: scale(1.5);
+            cursor: pointer;
+        }
+    }
+}
+
+//Mixin
+
+h1{
+    @include text(3em, 2.4em, $white)
+}
+
+.socials{
+    @include d-flex(center, center);
+}
+
+#botonera{
+    @include d-flex(center, space-between);
+}
+
+.bg-gray{
+    background-color: map-get($map:$paleta, $key:'dos');
+}
+
+.bg-black{
+    background-color: map-get($map:$paleta, $key:'cuatro');
+}

@@ -85,6 +85,83 @@ h3 {
 
 p {
   font-size: 1em;
-  color: #f2f2f2;
   margin: 10px 20px;
   line-height: 1.4em; }
+
+.separadores {
+  border-bottom: 2px solid #0088a9;
+  padding: 15px;
+  width: 100%; }
+
+.border-img {
+  border: #f2f2f2 solid 2px; }
+
+#galeria .col-lg-4 {
+  padding: 25px; }
+
+#galeria img {
+  width: 100%; }
+  #galeria img:hover {
+    border: 5px solid #f2f2f2; }
+
+.bg-contacto {
+  background-image: url(../images/cortetatto.jpg);
+  background-position: center center; }
+
+.btn-turq {
+  background: #0088a9; }
+
+.padd-ubi {
+  padding: 15px; }
+
+#button-ubi, #button-rounded {
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  color: #f2f2f2; }
+  #button-ubi:hover, #button-rounded:hover {
+    background-color: #0088a9; }
+
+#button-rounded {
+  border-radius: 4px; }
+
+#map {
+  height: 40vh;
+  width: 100%; }
+
+.inner {
+  overflow: hidden; }
+  .inner img {
+    transition: all 1.5s ease; }
+    .inner img:hover {
+      transform: scale(1.5);
+      cursor: pointer; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: size;
+  line-height: 2.4em;
+  color: #f2f2f2;
+  padding: 4px; }
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#botonera {
+  display: flex;
+  justify-content: center;
+  align-items: space-between; }
+
+.bg-gray {
+  background-color: #24252A; }
+
+.bg-black {
+  background-color: black; }

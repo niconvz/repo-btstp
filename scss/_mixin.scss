@@ -1,0 +1,28 @@
+// mixin's
+
+@mixin text($fontsize, $line-height, $color){
+    font-family: $mainFont;
+    font-size: size;
+    line-height: $line-height;
+    color: $color;
+    padding: 4px;
+}
+
+//@incluide texto(2em, 2.4em, deeppink);
+
+
+@mixin d-flex($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//@include d-flex(center, center);
+
+//Maps
+$paleta:(
+    "uno":#0088a9,
+    "dos":#24252A,
+    "tres":#f2f2f2,
+    "cuatro":black,
+);   
