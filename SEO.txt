@@ -1,0 +1,30 @@
+SEO
+
+Agregue 5 meta description
+- Don Juan barbería & salón masculino. Desde 2015 dando el mejor servicio. Atendida por sus propios dueños.
+- Don Juan barbería & salón masculino, barbería ubicada en Morón Sur. Cartagena 1495, a dos cuadras de Patagones.
+- Servicio de corte, decoloración, coloración y afeitado tradicional de barba. Contamos con los mejores barberos de la zona y utilizamos los mejores productos para el cabello.
+- Un poco de lo que hacemos en Don Juan, desde los cortes más tradicionales a los deseños más innovadores.
+- Don Juan barbería & salón masculino, barbería ubicada en Morón Sur. Llena el formulario para atender tu consulta/turno.
+
+Modifique los 5 title's de mis html
+- Don Juan - Barbería & Salón Masculino.
+- Donde encontrarnos! - Don Juan Barbería.
+- Servicios que brindamos- Don Juan Barbería.
+- Fotos de nuestros trabajos! - Don Juan Barbería.
+- ontactanos, tu consulta no molesta! - Don Juan Barbería.
+
+Agregue meta keywords con palabras clave para optimizar la busqueda
+
+Agregue las palabras clave en mi contenido
+
+Agregue meta author: "Nicolás Narvaez"
+
+Agregue meta robots, index, follow.
+
+MIXINS
+
+@mixin text (para los ajustes de fuente)
+@mixin d-flex (para los ajustes de contenido)
+
+map $paleta (con los colores utilizados en css)
