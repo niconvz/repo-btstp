@@ -11,9 +11,6 @@ html {
 main {
   background-color: #24252A; }
 
-#numberHead {
-  background-color: #24252A; }
-
 h1,
 h3 {
   color: #f2f2f2; }
@@ -46,8 +43,9 @@ p {
     border: 5px solid #f2f2f2; }
 
 .bg-contacto {
-  background-image: url(../images/cortetatto.jpg);
-  background-position: center center; }
+  background-image: url(../images/madera-contacto.jpeg);
+  background-position: center center;
+}
 
 .btn-turq {
   background: #0088a9; }
@@ -188,3 +186,34 @@ h1 {
     border: 3px solid #24252A;
     width: 80%
   }
+
+  #top-wlc{
+    display: flex;
+    align-items: center;
+    background-color: #24252A;}
+    #top-wlc p{
+      color: #fff;}
+      #top-wlc a{
+        color: #fff;
+        transition: color .4s ease;}
+        #top-wlc a i:hover{
+          color: #0088a9;
+        }
+
+
+    .socials {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 1rem 0; }
+      .socials li {
+        margin: 0 10px; }
+        .socials li a {
+          text-decoration: none;
+          color: white; }
+          .socials li a i {
+            font-size: 1.1rem;
+            transition: color .4s ease; }
+            .socials li a i:hover {
+              color: #0088A9; }
