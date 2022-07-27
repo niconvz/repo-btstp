@@ -182,3 +182,9 @@ h1 {
         color: #f2f2f2; }
         #botonera ul a:hover {
           color: #0088a9; }
+
+  div.caja{
+    margin: 50px auto;
+    border: 3px solid #24252A;
+    width: 80%
+  }
